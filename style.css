@@ -140,12 +140,17 @@ ol ul, ul ol, ul ul, ol ol {
 }
 
 ul ul, ol ul {
-	list-style-type: square;
+	list-style-type: circle;
 }
 
-li{
+li {
   margin: 5px 0;
 }
+
+ol.k {
+	list-style-type: lower-alpha;
+}
+
 
 em, i {
 	font-style: italic;
@@ -301,4 +306,39 @@ hr.ruler {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid #ddd;
+}
+
+table.minimalistBlack {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+table.minimalistBlack td, table.minimalistBlack th {
+border: 1px solid #000000;
+padding: 5px 10px;
+}
+table.minimalistBlack thead {
+background: #c0c0c0;
+}
+table.minimalistBlack thead th {
+font-weight: bold;
+text-align: center;
+}
+
+
+table.minimalistNone {
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+}
+table.minimalistNone td, table.minimalistNone th {
+padding: 5px 20px;
+}
+table.minimalistNone thead {
+background: #c0c0c0;
+}
+table.minimalistNone thead th {
+font-weight: bold;
+text-align: center;
 }
